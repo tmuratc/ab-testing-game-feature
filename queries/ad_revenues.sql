@@ -30,4 +30,4 @@ final_results as (
   where g.user_id in (select * from one_or_more_race_users)
   group by 1     
 )
-select * from final_results  100
+select * from final_results
